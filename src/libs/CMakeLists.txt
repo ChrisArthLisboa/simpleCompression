@@ -1,11 +1,9 @@
 
-file(GLOB SOURCES_C "*.c")
-file(GLOB SOURCES_H "*.h")
+
+file(GLOB BINTREE "binTree*")
 add_library(
-
-    libs
-
-    ${SOURCES_C}
-    ${SOURCES_H}
-
+    binTree
+    
+    ${BINTREE}
 )
+
